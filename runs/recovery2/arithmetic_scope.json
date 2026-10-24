@@ -1,0 +1,63 @@
+{
+  "transport": {
+    "batch": 1,
+    "context": 10,
+    "forecast": 10,
+    "resolution": 64,
+    "counts": {
+      "Conv2d": 28035072,
+      "Linear": 22499328
+    },
+    "partial_conv_linear_macs": 50534400,
+    "partial_conv_linear_flops_2_per_mac": 101068800,
+    "exponential_half_steps": 20,
+    "internal_pieces_per_half": [
+      3,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "generator_applications": 2424,
+    "parameters_total": 65893,
+    "parameters_permanently_inactive_for_prediction_and_loss": 0
+  },
+  "transport_off": {
+    "batch": 1,
+    "context": 10,
+    "forecast": 10,
+    "resolution": 64,
+    "counts": {
+      "Conv2d": 28035072,
+      "Linear": 22499328
+    },
+    "partial_conv_linear_macs": 50534400,
+    "partial_conv_linear_flops_2_per_mac": 101068800,
+    "exponential_half_steps": 0,
+    "internal_pieces_per_half": [],
+    "generator_applications": 0,
+    "parameters_total": 65893,
+    "parameters_permanently_inactive_for_prediction_and_loss": 2160
+  },
+  "conventions": {
+    "one_MAC": "one dot-product multiply-accumulate;2FLOPs by common convention;bias adds excluded",
+    "included": "Every executed Conv2d/Linear including recurrent repeated calls and aux/readouts (including unused off transport head)",
+    "excluded": "attention tensor products,normalization,activation,interpolation,elementwise operations,loss/TV and all physical-stencil/exponential arithmetic; data transfer/allocator/runtime not FLOPs",
+    "scope": "partial module MAC accounting, NOT full inference FLOPs or paper13.1G reproduction. Dynamic numerical work separately counted for fixed first heldout example; does not imply faster runtime."
+  }
+}

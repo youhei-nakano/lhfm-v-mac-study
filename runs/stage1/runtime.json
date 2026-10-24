@@ -1,0 +1,15 @@
+{
+  "python": "3.12.14",
+  "torch": "2.14.1",
+  "numpy": "1.26.4",
+  "device": "mps",
+  "initial": {
+    "peak_rss_bytes": 227737600,
+    "swap_used_bytes": 6359214981.12,
+    "driver_bytes": 393216,
+    "allocated_bytes": 0
+  },
+  "pid": 10864,
+  "started_utc": "2026-10-24T16:23:19.106269+00:00",
+  "initialization": "from scratch; no40update checkpoint loaded"
+}

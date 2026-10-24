@@ -1,0 +1,11 @@
+# Operational recovery1 (frozen before launch)
+
+Original stopped attempt runs/stage1 remains immutable. User requests both planned3000 updates completed without wall-clock cap. This is recovery, not a new selected performance trial.
+
+Resume transport from full model/EMA/AdamW/CPU RNG at576. Pure schedule(step,3000) and deterministic SeedSequence(training_seed,step-1) recover absolute schedule/data position. Original rows1..576 retained as trajectory prefix; rows577..650 remain in aborted original only. Recompute577 onward, count one trajectory, never add duplicate evidence. transport_off starts scratch seed1017. Fixed model64px10+10, widths, batch1, losses, optimizer, EMA.999,35validation points,32validation sequences and officialtest16..143 unchanged. No heldout opened until both selections fixed.
+
+Keep MPS to avoid device change. Release completed graphs/output references and gradients after each update, gc, allocator empty_cache; no mathematical changes. Release inference caches per sequence. Atomically checkpoint full training state every update before resource guard. No time limit. Per-attempt RSS1.5GiB, MPSdriver1GiB and whole-system swap growth256MiB unchanged; new process baseline explicitly recorded alongside original baseline (old process released). No user app termination, swap clear or settings changes. Any resource stop retained; never automatic looping retries.
+
+Evidence: original process exited. Global swap remained elevated after exit; this alone does not identify ownership. Two actual CPU steps1.63/1.80sec, peakRSS1.23GiB. Protected MPS10-step replay with release/cache clearing: poststepdriver12.19MB, peakRSS1.019GB, no swap increase. All10 replay losses/recorded gradient norms exactly match original. CPU fixture save/resume model+EMA/loss exactly match; no all-weight MPS bitwise claim. Ten formula/protocol tests pass. MPS mean~6sec/update at checkpoint; remaining2424 transport steps roughly4h at this measured point, transport_off and validation extra. Adaptive cost may change; no arbitrary time termination.
+
+Original1..576 and replay final path count one training trajectory. Full original failed1..650 and probes retained in separate audit. Final reports must disclose operational recovery, timings/cache scope, original waste/replay cost and selected final trajectory. No robust-superiority claim from single seed.

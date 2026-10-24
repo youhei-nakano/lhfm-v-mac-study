@@ -1,0 +1,7 @@
+{
+  "url": "https://www.cs.toronto.edu/~nitish/unsupervised_video/mnist_test_seq.npy",
+  "sha256": "c2a3e8d3939c001ab77bf543f130157424efa486bb4d0974d2cebb773b13f8b3",
+  "bytes": 819200096,
+  "verified": true,
+  "expected_hash_from": "pinned reference recipe.py INPUT_HASHES"
+}

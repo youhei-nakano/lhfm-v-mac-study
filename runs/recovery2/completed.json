@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "seconds": 5099.867480000015,
+  "test_opened_after_both_model_selection": true,
+  "memory": {
+    "peak_rss_bytes": 1562771456,
+    "swap_used_bytes": 6686706237.44
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "repository": "https://github.com/Lilas-Q/Geometric_quantization_models",
+  "commit": "979a41de542f7b190549fc94a8803a56530e4a00",
+  "execution": "Read-only text inspection only; no source imported/executed",
+  "files": {
+    "src__lhfm_v__frozen_expm.py.txt": "319b7d6f1480ed439a4b4ca89231c7721298a342c08d18b89f0bf5cb63b6547e",
+    "src__lhfm_v__transport.py.txt": "06eae50c38e9931e2dfa23e35e7e7d4aab6462a309124380dfbbdb8659cbbb7a",
+    "src__lhfm_v__recipe.py.txt": "e2930bb4a26143fba31b32b2a11dba2bc499b4b67a1f9523bee8f4b90202a994",
+    "src__lhfm_v__pipeline.py.txt": "6911aa3a7a67e0387928f1e232378b159c421bb9b3ef832b6f3aff7b9e18204f",
+    "src__lhfm_v__model.py.txt": "8b85275a294bc7854e0eaeddf065a249345526e97d14657c4ad005a7fe229515",
+    "src__lhfm_v__loss.py.txt": "1006daff7436c5c15e265ea5fd1c32bc47da843281ca0c69579f71800c247dbd",
+    "src__lhfm_v__planning.py.txt": "0dd6c03639966f90a9787faf3a5375c051afb507b5b6a2429f7182a8423aced9",
+    "src__lhfm_v__ssim.py.txt": "f04f0683760d3c8a897e0794d9dcd35c66c14940ce60ba4747b208e82296d96a",
+    "src__lhfm_v__continuation.py.txt": "177057c881e73dae922533db6d1186342415108a82590ab3ade9678f0ee101fb",
+    "src__lhfm_v__memory.py.txt": "89433cef0ae24d3cb6ed4d9db6fc00861e9cbffadb2d01bd1fbe262c34e3dec1",
+    "src__lhfm_v__engine.py.txt": "4c19ecbdbe131dd8f49d5ccb68aef68a9d824ca06d97c613eb04fd2ca3259204",
+    "src__lhfm_v__metrics.py.txt": "5f529461da3860649a773e2d25a9406dca84639873137027fd6c68318c29baa2",
+    "src__lhfm_v__schedule.py.txt": "429004840bcc36d85b6da68e0f21c47c46d7a65cdc41510ede3de1037cb3d7b4",
+    "src__lhfm_v__execution.py.txt": "43ddf2caf0234e3103cd981cc513ed15b267f8d20cb01c36d845744a81e099c7",
+    "src__lhfm_v__legacy_batch_guard.py.txt": "00cdafa3462092496fcff4f1415c60203b1df62a1655272fca4c7d4b423626fe",
+    "src__lhfm_v__train.py.txt": "43595ffb9756a5cbadf93ce6253feaafa4e9d688d1b238b08ffec02b62065d38",
+    "src__lhfm_v__batch_guard.py.txt": "b673b6b7fa1398db90d975e90c702e163ab2b9292ad15bf3b40c733a638a5d0d",
+    "src__lhfm_v__data.py.txt": "78c5b735e7bb2f039250e74f6f40225934b38379f996b062efb1c9422f8871f8",
+    "src__lhfm_v____init__.py.txt": "b9a4761a8c970b41d425599d90ee14d9da86a949e2ecf6cb164b3d086b3e411f",
+    "src__lhfm_v__optimized_expm.py.txt": "c845a73460a70f9f676fe7a1e6a7067039a620adb6085a69e9fc9a4a30f08ad5",
+    "src__lhfm_v__context.py.txt": "47492bd273d3dd0aecc895653cfbb6db864a2908d8c28634574677fd3c77b5fd",
+    "src__lhfm_v__checkpoint.py.txt": "cc9a53a6ee141f27ba67d8a759fa2f8e159de73aa7a49bdbd6e80546f583d0db",
+    "src__lhfm_v__backbone.py.txt": "eb9f119472e49b51214c1cc8153bf68644e32834d7af39d20309a2e669140467"
+  }
+}

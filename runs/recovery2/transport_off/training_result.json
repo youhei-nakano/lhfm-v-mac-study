@@ -1,0 +1,22 @@
+{
+  "model": "transport_off",
+  "seed": 1017,
+  "updates": 3000,
+  "best_update": 3000,
+  "best_validation_mse_raw": 0.0371753628008621,
+  "last_validation": {
+    "update": 3000,
+    "ema_mse_raw": 0.0371753628008621,
+    "model_mse_raw": 0.03584724730673918,
+    "selected_best_update": 3000,
+    "ema_initial_weight": 0.04971239399803616
+  },
+  "initial_ema_fraction_final": 0.04971239399803616,
+  "training_seconds_with_validation": 741.9747422080254,
+  "memory": {
+    "peak_rss_bytes": 1562771456,
+    "swap_used_bytes": 6686706237.44
+  },
+  "parameters": 65893,
+  "status": "completed"
+}

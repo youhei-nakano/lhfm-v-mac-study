@@ -1,0 +1,9 @@
+{
+  "pid": 14580,
+  "started_utc": "2026-10-24T17:31:04.995415+00:00",
+  "model": "transport_off",
+  "completed_updates": 3000,
+  "elapsed_seconds": 5029.454727208009,
+  "phase": "training",
+  "initialization": "scratch1017"
+}

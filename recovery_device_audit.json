@@ -1,0 +1,34 @@
+{
+  "recorded_utc": "2026-10-24T17:43:25.737860+00:00",
+  "chronology": [
+    {
+      "attempt": "stage1",
+      "device": "mps",
+      "updates": 650,
+      "stop": "global swap growth",
+      "full_state": 576
+    },
+    {
+      "attempt": "recovery1",
+      "device": "mps",
+      "resume": 576,
+      "updates": 787,
+      "stop": "global swap growth",
+      "full_state": 787
+    },
+    {
+      "attempt": "recovery2",
+      "device": "cpu",
+      "resume": 787,
+      "status": "running"
+    }
+  ],
+  "continuity": "Model+AdamW+EMA+CPU RNG loaded, schedule absolute update, dataset absolute sequence ID. Prefix rows counted once. CPU save/resume exact fixture; ten MPS replay losses/gradient norms match original; no all-weight cross-device bitwise claim.",
+  "rss_reading": {
+    "pid": 14580,
+    "current_rss_bytes": 1308229632,
+    "high_water_bytes": 1562771456,
+    "guard_high_water_bytes": 1610612736
+  },
+  "test_unopened": true
+}

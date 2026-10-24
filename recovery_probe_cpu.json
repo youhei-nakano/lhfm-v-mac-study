@@ -1,0 +1,35 @@
+{
+  "replay": {
+    "fixture_cpu_exact_model_ema_and_loss": true,
+    "schedule": "pure function of absolute update, no separate scheduler state",
+    "data": "per-sequence SeedSequence(training_seed,absolute_update-1), no mutable dataset RNG",
+    "training_stochastic_ops": "no dropout or stochastic forward operations; initial CPU RNG saved"
+  },
+  "device": "cpu",
+  "before": {
+    "peak_rss_bytes": 477642752,
+    "swap_used_bytes": 6746936442.88
+  },
+  "updates": [
+    {
+      "update": 577,
+      "seconds": 1.6263035830343142,
+      "loss": 0.05314008891582489,
+      "lr": 0.0007246668231868658,
+      "beta1": 0.8786805392513681,
+      "grad_norm": 0.3156571388244629,
+      "peak_rss_bytes": 1252802560,
+      "swap_used_bytes": 6746936442.88
+    },
+    {
+      "update": 578,
+      "seconds": 1.8010740000754595,
+      "loss": 0.04233717918395996,
+      "lr": 0.0007261816515282227,
+      "beta1": 0.8785227446324768,
+      "grad_norm": 0.2621920108795166,
+      "peak_rss_bytes": 1322041344,
+      "swap_used_bytes": 6746936442.88
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "run_root": "runs/recovery2",
+  "models_available": [
+    "transport",
+    "transport_off"
+  ],
+  "example_file": "runs/recovery2/example_official_16.npz",
+  "example_prediction_files": {
+    "transport": "runs/recovery2/example_transport_16.npz",
+    "transport_off": "runs/recovery2/example_transport_off_16.npz"
+  },
+  "single_seed_only": true,
+  "benchmark_replication_claim": false
+}

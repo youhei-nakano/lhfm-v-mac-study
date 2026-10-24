@@ -1,0 +1,115 @@
+{
+  "replay": {
+    "fixture_cpu_exact_model_ema_and_loss": true,
+    "schedule": "pure function of absolute update, no separate scheduler state",
+    "data": "per-sequence SeedSequence(training_seed,absolute_update-1), no mutable dataset RNG",
+    "training_stochastic_ops": "no dropout or stochastic forward operations; initial CPU RNG saved"
+  },
+  "device": "cpu",
+  "before": {
+    "peak_rss_bytes": 477216768,
+    "swap_used_bytes": 7114525245.44
+  },
+  "updates": [
+    {
+      "update": 788,
+      "seconds": 2.0228265000041574,
+      "loss": 0.029605424031615257,
+      "lr": 0.0009633106333419329,
+      "beta1": 0.853821809026882,
+      "grad_norm": 0.26843929290771484,
+      "peak_rss_bytes": 1290633216,
+      "swap_used_bytes": 7114525245.44
+    },
+    {
+      "update": 789,
+      "seconds": 1.881107332999818,
+      "loss": 0.03532659262418747,
+      "lr": 0.0009639506126857289,
+      "beta1": 0.8537551445119033,
+      "grad_norm": 0.18556097149848938,
+      "peak_rss_bytes": 1299759104,
+      "swap_used_bytes": 7114525245.44
+    },
+    {
+      "update": 790,
+      "seconds": 1.9568517910083756,
+      "loss": 0.06102655827999115,
+      "lr": 0.0009645851790031374,
+      "beta1": 0.8536890438538398,
+      "grad_norm": 0.2786685824394226,
+      "peak_rss_bytes": 1350844416,
+      "swap_used_bytes": 7114525245.44
+    },
+    {
+      "update": 791,
+      "seconds": 1.956741958972998,
+      "loss": 0.04517242684960365,
+      "lr": 0.0009652143245569819,
+      "beta1": 0.8536235078586477,
+      "grad_norm": 0.1159188374876976,
+      "peak_rss_bytes": 1376567296,
+      "swap_used_bytes": 7114525245.44
+    },
+    {
+      "update": 792,
+      "seconds": 2.0627303749788553,
+      "loss": 0.03590148687362671,
+      "lr": 0.0009658380416761806,
+      "beta1": 0.8535585373253979,
+      "grad_norm": 0.1294279396533966,
+      "peak_rss_bytes": 1440301056,
+      "swap_used_bytes": 7114525245.44
+    },
+    {
+      "update": 793,
+      "seconds": 2.053307875059545,
+      "loss": 0.03559383377432823,
+      "lr": 0.0009664563227558397,
+      "beta1": 0.8534941330462666,
+      "grad_norm": 0.14844687283039093,
+      "peak_rss_bytes": 1440612352,
+      "swap_used_bytes": 7114525245.44
+    },
+    {
+      "update": 794,
+      "seconds": 2.1926835420308635,
+      "loss": 0.04197166487574577,
+      "lr": 0.0009670691602573463,
+      "beta1": 0.8534302958065264,
+      "grad_norm": 0.08120021224021912,
+      "peak_rss_bytes": 1514340352,
+      "swap_used_bytes": 7114525245.44
+    },
+    {
+      "update": 795,
+      "seconds": 2.0463481249753386,
+      "loss": 0.03209521621465683,
+      "lr": 0.0009676765467084603,
+      "beta1": 0.8533670263845353,
+      "grad_norm": 0.09761975705623627,
+      "peak_rss_bytes": 1515962368,
+      "swap_used_bytes": 7114525245.44
+    },
+    {
+      "update": 796,
+      "seconds": 1.9653189580421895,
+      "loss": 0.029809575527906418,
+      "lr": 0.0009682784747034055,
+      "beta1": 0.8533043255517285,
+      "grad_norm": 0.0799054205417633,
+      "peak_rss_bytes": 1515962368,
+      "swap_used_bytes": 7114525245.44
+    },
+    {
+      "update": 797,
+      "seconds": 2.0649361250689253,
+      "loss": 0.02438715472817421,
+      "lr": 0.0009688749369029602,
+      "beta1": 0.8532421940726083,
+      "grad_norm": 0.10726528614759445,
+      "peak_rss_bytes": 1516044288,
+      "swap_used_bytes": 7114525245.44
+    }
+  ]
+}

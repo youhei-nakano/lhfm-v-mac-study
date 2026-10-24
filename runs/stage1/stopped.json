@@ -1,0 +1,10 @@
+{
+  "active": {
+    "phase": "training",
+    "model": "transport",
+    "update": 650
+  },
+  "type": "RuntimeError",
+  "reason": "Global swap growth limit",
+  "elapsed_seconds": 1946.5217638330068
+}

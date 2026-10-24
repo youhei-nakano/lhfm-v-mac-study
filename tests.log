@@ -1,0 +1,15 @@
+test_cadence_and_memory_components (test_formula.FidelityTests.test_cadence_and_memory_components) ... ok
+test_original_width_parameter_count (test_formula.FidelityTests.test_original_width_parameter_count) ... ok
+test_paper_ssim_identity_and_error_normalization (test_formula.FidelityTests.test_paper_ssim_identity_and_error_normalization) ... ok
+test_dense_stencil_and_affine_matrix_exponential (test_formula.FormulaTests.test_dense_stencil_and_affine_matrix_exponential) ... ok
+test_full_architecture_semantics_and_losses (test_formula.FormulaTests.test_full_architecture_semantics_and_losses) ... ok
+test_gradient_all_physical_inputs (test_formula.FormulaTests.test_gradient_all_physical_inputs) ... ok
+test_schedule_endpoints_and_anchor (test_formula.FormulaTests.test_schedule_endpoints_and_anchor) ... ok
+test_zero_limits_and_adaptive_pieces (test_formula.FormulaTests.test_zero_limits_and_adaptive_pieces) ... ok
+test_frozen_budget_and_unseen_test (test_stage_protocol.StageProtocol.test_frozen_budget_and_unseen_test) ... ok
+test_validation_milestone_rescaling_and_ema (test_stage_protocol.StageProtocol.test_validation_milestone_rescaling_and_ema) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.300s
+
+OK

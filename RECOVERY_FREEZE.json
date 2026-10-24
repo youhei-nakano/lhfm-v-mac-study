@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-24T17:02:06.498156+00:00",
+  "hashes": {
+    "recovery.py": "f0f62752d2387f722e6d376f3cfc38bc502c5e4f492b4230b99e45a2a3a5e1d3",
+    "RECOVERY_PLAN.md": "bf43b751eca1cbb1a56ca26d1835abce12bb17749a50ef47013a34ea85a0ee1a",
+    "recovery_probe.py": "ff930d2a010a321875460f0131795db846b821759e4940b430814b47afc73875",
+    "recovery_replay_comparison.json": "606b3fdcc23d67d805d59fd299b72e0f2942ef3bd5498b81bff0c35e72eb1726",
+    "architecture.py": "9a9a70eae184f3efed67dbb4094511767b73b2f53044a59b6335366d5c18932e",
+    "operators.py": "cf29eda63b6c9bea296594953cda508788b5fa497049b07986979ff37649c664",
+    "dataset.py": "93b70f429ba60350148d137a5039474009bef7a6a4f5ded8590f3cf0b1e933ad",
+    "metrics.py": "a58ac24a0fb281f831297cc5b68859afffe0408625613eec076e40f4ef2d85e8",
+    "configs/stage1.json": "9f19c6ae917ab57588ad3a16c74772b4731f80d487307ec037c320e996988c97"
+  },
+  "test_unopened": true,
+  "original_attempt": "runs/stage1",
+  "selected_trajectory_output": "runs/recovery1"
+}

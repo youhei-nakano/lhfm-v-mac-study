@@ -1,0 +1,11 @@
+{
+  "tests": {
+    "passed": 14,
+    "command": "python -m unittest discover -s tests -v"
+  },
+  "saved_checkpoint_single_example_regeneration": "passed",
+  "new_training_performed": false,
+  "readme_local_links": "passed",
+  "secret_and_personal_path_scan": "passed; release-builder scanner literal excluded",
+  "source": "existing recovery bundle; model and numerical code unchanged"
+}

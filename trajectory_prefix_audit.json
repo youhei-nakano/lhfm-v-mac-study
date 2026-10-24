@@ -1,0 +1,378 @@
+{
+  "final_prefix1_576_matches_original_all_record_fields": true,
+  "final_prefix577_787_matches_recovery1_all_record_fields": true,
+  "replayed_mps_original_overlap": [
+    {
+      "update": 577,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 578,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 579,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 580,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 581,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 582,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 583,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 584,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 585,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 586,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 587,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 588,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 589,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 590,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 591,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 592,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 593,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 594,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 595,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 596,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 597,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 598,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 599,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 600,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 601,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 602,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 603,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 604,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 605,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 606,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 607,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 608,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 609,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 610,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 611,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 612,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 613,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 614,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 615,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 616,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 617,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 618,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 619,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 620,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 621,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 622,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 623,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 624,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 625,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 626,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 627,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 628,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 629,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 630,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 631,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 632,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 633,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 634,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 635,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 636,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 637,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 638,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 639,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 640,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 641,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 642,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 643,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 644,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 645,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 646,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 647,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 648,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 649,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    },
+    {
+      "update": 650,
+      "loss_exact": true,
+      "gradient_norm_exact": true
+    }
+  ],
+  "probe_rows_not_inserted": true,
+  "duplicate_update_ids_in_final": false
+}

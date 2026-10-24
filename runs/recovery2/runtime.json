@@ -1,0 +1,16 @@
+{
+  "python": "3.12.14",
+  "torch": "2.14.1",
+  "numpy": "1.26.4",
+  "device": "cpu",
+  "initial": {
+    "peak_rss_bytes": 220135424,
+    "swap_used_bytes": 7114525245.44
+  },
+  "pid": 14580,
+  "started_utc": "2026-10-24T17:31:04.995415+00:00",
+  "initialization": "transport full-state resume787; transport_off scratch1017",
+  "original_attempt": "runs/stage1",
+  "prior_recovery_attempt": "runs/recovery1",
+  "original_attempt_swap_baseline": 6359214981.12
+}

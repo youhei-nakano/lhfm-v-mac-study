@@ -1,0 +1,28 @@
+{
+  "utc": "2026-10-24T18:59:01.151542+00:00",
+  "reviewed": [
+    "official_sequence_16.png",
+    "official_sequence_17.png",
+    "official_sequence_18.png",
+    "training_validation.png"
+  ],
+  "selection": "predeclared first official16..19, not quality-selected",
+  "observations": "Transport strong blur/lost digit identity; off last-frame traces/checkerboard/noise and poor motion. Last-frame higher SSIM. MSE reduction does not establish sufficient video quality.",
+  "gif_frames": 20,
+  "gif_size": [
+    548,
+    155
+  ],
+  "raw": {
+    "transport": {
+      "min": -0.14479029178619385,
+      "max": 1.0801851749420166,
+      "outside_fraction": 0.34919013977050783
+    },
+    "transport_off": {
+      "min": -0.8922814130783081,
+      "max": 1.308810830116272,
+      "outside_fraction": 0.3356468200683594
+    }
+  }
+}

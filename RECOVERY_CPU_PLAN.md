@@ -1,0 +1,9 @@
+# Operational recovery2: CPU fallback, frozen before launch
+
+User explicitly requests completing both planned3000 updates; recovery1 stopped787 on whole-system swap guard despite poststepMPSdriver12.19MB and peakRSS1.074GB. Preserve original650 and recovery1 all787 records separately. CPU is authorized fallback, not a model change.
+
+Protected actual787 checkpoint CPU10-step probe788..797: mean2.0203sec/update, peakRSS1516044288bytes(<1.5GiB), no whole-system swap increase. Headroom is small; do not relax guard if it fails. CPU fixture checkpoint replay exact model/EMA/loss already verified. No all-weight cross-device bitwise assertion; FP32 device arithmetic can diverge.
+
+Resume full state787 from runs/recovery1/transport/latest_state.pt. Model/AdamW/EMA/CPU RNG included; scheduler is pure absolute-step function; deterministic sampleID=step-1. Retain selected trajectory rows1..787 exactly once, recompute788 onward;10probe steps are not final trajectory/evidence. transport_off scratch1017 onCPU. Same3000 updates/model,64px10+10,batch1,widths,losses,optimizer/scheduler,EMA.999,35fixedvalidation points,32val sequences and unopenedofficialtest16..143. No time cap. Same RSS1.5GiB,swapgrowth256MiB per-attempt baseline (whole-system and originalbaseline disclosed). No app termination,settings changes,swapclear or guard increases. Every-update atomic checkpoint beforeguard. If resource failure recurs, preserve exact state and report evidence; no repeated automatic retry loop.
+
+CPU training~75min for remaining2213transport updates at probe speed, plus off/validation/test. Time is estimate, not termination. Both heldout/latency evaluations useCPU, disclose mixed-device transport training prefix1..787MPS versus allCPUoff. This operational difference prevents asserting a perfectly device-identical comparison. Fidelity and reproducibility, not superiority, are the objective.

@@ -1,0 +1,55 @@
+{
+  "comparison": [
+    {
+      "update": 577,
+      "loss_exact": true,
+      "grad_norm_exact": true
+    },
+    {
+      "update": 578,
+      "loss_exact": true,
+      "grad_norm_exact": true
+    },
+    {
+      "update": 579,
+      "loss_exact": true,
+      "grad_norm_exact": true
+    },
+    {
+      "update": 580,
+      "loss_exact": true,
+      "grad_norm_exact": true
+    },
+    {
+      "update": 581,
+      "loss_exact": true,
+      "grad_norm_exact": true
+    },
+    {
+      "update": 582,
+      "loss_exact": true,
+      "grad_norm_exact": true
+    },
+    {
+      "update": 583,
+      "loss_exact": true,
+      "grad_norm_exact": true
+    },
+    {
+      "update": 584,
+      "loss_exact": true,
+      "grad_norm_exact": true
+    },
+    {
+      "update": 585,
+      "loss_exact": true,
+      "grad_norm_exact": true
+    },
+    {
+      "update": 586,
+      "loss_exact": true,
+      "grad_norm_exact": true
+    }
+  ],
+  "scope": "Ten MPS replay losses and recorded gradient norms exactly match original aborted trajectory; no claim of all-weight MPS bitwise equality."
+}

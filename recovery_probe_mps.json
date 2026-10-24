@@ -1,0 +1,137 @@
+{
+  "replay": {
+    "fixture_cpu_exact_model_ema_and_loss": true,
+    "schedule": "pure function of absolute update, no separate scheduler state",
+    "data": "per-sequence SeedSequence(training_seed,absolute_update-1), no mutable dataset RNG",
+    "training_stochastic_ops": "no dropout or stochastic forward operations; initial CPU RNG saved"
+  },
+  "device": "mps",
+  "before": {
+    "peak_rss_bytes": 595279872,
+    "swap_used_bytes": 6746936442.88,
+    "driver_bytes": 8798208,
+    "allocated_bytes": 1166336
+  },
+  "updates": [
+    {
+      "update": 577,
+      "seconds": 6.25520650006365,
+      "loss": 0.05314008891582489,
+      "lr": 0.0007246668231868658,
+      "beta1": 0.8786805392513681,
+      "grad_norm": 0.31565743684768677,
+      "peak_rss_bytes": 942047232,
+      "swap_used_bytes": 6746936442.88,
+      "driver_bytes": 12189696,
+      "allocated_bytes": 1166336
+    },
+    {
+      "update": 578,
+      "seconds": 7.088822791003622,
+      "loss": 0.04233717918395996,
+      "lr": 0.0007261816515282227,
+      "beta1": 0.8785227446324768,
+      "grad_norm": 0.2621920704841614,
+      "peak_rss_bytes": 987332608,
+      "swap_used_bytes": 6746936442.88,
+      "driver_bytes": 12189696,
+      "allocated_bytes": 1166336
+    },
+    {
+      "update": 579,
+      "seconds": 5.852064749924466,
+      "loss": 0.04210306704044342,
+      "lr": 0.0007276939659261624,
+      "beta1": 0.8783652118826913,
+      "grad_norm": 0.08999268710613251,
+      "peak_rss_bytes": 1000423424,
+      "swap_used_bytes": 6746936442.88,
+      "driver_bytes": 12189696,
+      "allocated_bytes": 1166336
+    },
+    {
+      "update": 580,
+      "seconds": 5.70870387495961,
+      "loss": 0.04038652777671814,
+      "lr": 0.000729203747941251,
+      "beta1": 0.8782079429227864,
+      "grad_norm": 0.16008315980434418,
+      "peak_rss_bytes": 1005928448,
+      "swap_used_bytes": 6746936442.88,
+      "driver_bytes": 12189696,
+      "allocated_bytes": 1166336
+    },
+    {
+      "update": 581,
+      "seconds": 5.904643957968801,
+      "loss": 0.043091531842947006,
+      "lr": 0.000730710979164933,
+      "beta1": 0.8780509396703194,
+      "grad_norm": 0.11451128870248795,
+      "peak_rss_bytes": 1011548160,
+      "swap_used_bytes": 6746936442.88,
+      "driver_bytes": 12189696,
+      "allocated_bytes": 1166336
+    },
+    {
+      "update": 582,
+      "seconds": 6.055510749923997,
+      "loss": 0.023813029751181602,
+      "lr": 0.0007322156412197529,
+      "beta1": 0.877894204039609,
+      "grad_norm": 0.24701249599456787,
+      "peak_rss_bytes": 1019183104,
+      "swap_used_bytes": 6746936442.88,
+      "driver_bytes": 12189696,
+      "allocated_bytes": 1166336
+    },
+    {
+      "update": 583,
+      "seconds": 6.093841291964054,
+      "loss": 0.040222954005002975,
+      "lr": 0.0007337177157595813,
+      "beta1": 0.8777377379417103,
+      "grad_norm": 0.1283235251903534,
+      "peak_rss_bytes": 1019183104,
+      "swap_used_bytes": 6746936442.88,
+      "driver_bytes": 12189696,
+      "allocated_bytes": 1166336
+    },
+    {
+      "update": 584,
+      "seconds": 5.367915083072148,
+      "loss": 0.0389939546585083,
+      "lr": 0.0007352171844698379,
+      "beta1": 0.8775815432843919,
+      "grad_norm": 0.1734306961297989,
+      "peak_rss_bytes": 1019183104,
+      "swap_used_bytes": 6746936442.88,
+      "driver_bytes": 12189696,
+      "allocated_bytes": 1166336
+    },
+    {
+      "update": 585,
+      "seconds": 6.572184959077276,
+      "loss": 0.02698119916021824,
+      "lr": 0.0007367140290677153,
+      "beta1": 0.8774256219721129,
+      "grad_norm": 0.11376293003559113,
+      "peak_rss_bytes": 1019183104,
+      "swap_used_bytes": 6738547834.88,
+      "driver_bytes": 12189696,
+      "allocated_bytes": 1166336
+    },
+    {
+      "update": 586,
+      "seconds": 6.082626707968302,
+      "loss": 0.03314673528075218,
+      "lr": 0.000738208231302401,
+      "beta1": 0.8772699759059999,
+      "grad_norm": 0.26107609272003174,
+      "peak_rss_bytes": 1019183104,
+      "swap_used_bytes": 6738547834.88,
+      "driver_bytes": 12189696,
+      "allocated_bytes": 1166336
+    }
+  ]
+}

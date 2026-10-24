@@ -1,0 +1,7 @@
+{
+  "frozen_source_hashes_match": true,
+  "training_records_retained": 650,
+  "validation_records_retained": 9,
+  "heldout_not_opened": true,
+  "selected_checkpoint_usable": true
+}

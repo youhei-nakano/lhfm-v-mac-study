@@ -1,0 +1,9 @@
+{
+  "pid": 10864,
+  "started_utc": "2026-10-24T16:23:19.106269+00:00",
+  "model": "transport",
+  "completed_updates": 650,
+  "elapsed_seconds": 1946.3509360409807,
+  "phase": "training",
+  "initialization": "from scratch"
+}
